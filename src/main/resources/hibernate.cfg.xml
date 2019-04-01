@@ -46,8 +46,13 @@ Contributor(s):
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/radiopack?zeroDateTimeBehavior=convertToNull</property>
+<<<<<<< HEAD
         <property name="hibernate.connection.username"></property>
         <property name="hibernate.connection.password"></property>
+=======
+        <property name="hibernate.connection.username">your username</property>
+        <property name="hibernate.connection.password">your password</property>
+>>>>>>> b8c0f7c72a6e75415fc85a19f56b31ea5edc193c
         
         <property name="hibernate.id.new_generator_mappings">true</property>
         <property name="show_sql">true</property>
